@@ -1,38 +1,3 @@
-# Changelog
-
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-<a name="unreleased"></a>
-## [Unreleased]
-
-### Feat
-- Updated KeyVault Resource specifically network_acls to automatically set Deny when there is a subnet_id to whitelist and Allow when subnet_id is not present
-- Updated virtual_network_subnet_rule to check if null, if null then return an empty set of strings
-- Made virtual_network variables optional to use
-- Updated access_policies variable and users input, seperated to user, groups and application
-
-
-<a name="v1.1.1"></a>
-## [v1.1.1] - 2023-10-02
-
-<a name="v1.1.0"></a>
-## [v1.1.0] - 2023-09-25
-### Feat
-- Updated formatting to match naming convention
-- Added a new variable that allow whitelisting of subnet
-- Created new function to allow provision of access_policies for Azure KeyVault  dynamically
-
-
-<a name="v1.0.0"></a>
-## v1.0.0 - 2023-09-24
-
-[Unreleased]: https://dev.azure.com/DEV-LOH/DEV-LOH.TerraformResources/_git/terraform-azurerm-virtualnetwork/compare/v1.1.1...HEAD
-[v1.1.1]: https://dev.azure.com/DEV-LOH/DEV-LOH.TerraformResources/_git/terraform-azurerm-virtualnetwork/compare/v1.1.0...v1.1.1
-[v1.1.0]: https://dev.azure.com/DEV-LOH/DEV-LOH.TerraformResources/_git/terraform-azurerm-virtualnetwork/compare/v1.0.0...v1.1.0
-
 <!-- BEGIN_AUTOMATED_TF_DOCS_BLOCK -->
 ## Requirements
 
